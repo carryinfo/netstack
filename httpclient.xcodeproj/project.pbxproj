@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0497171D43B40500D93D19 /* Demultiplexer_select.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A04970E1D43B40500D93D19 /* Demultiplexer_select.cpp */; };
+		0A0497181D43B40500D93D19 /* Reactor_Impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0497121D43B40500D93D19 /* Reactor_Impl.cpp */; };
+		0A0497191D43B40500D93D19 /* Reactor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0497141D43B40500D93D19 /* Reactor.cpp */; };
+		0A0497201D43B42900D93D19 /* HTTPProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A04971B1D43B42900D93D19 /* HTTPProtocol.cpp */; };
+		0A0497211D43B42900D93D19 /* TCPProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A04971E1D43B42900D93D19 /* TCPProtocol.cpp */; };
+		0AC2CCE81D3F9BCE000B5C36 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2CCE71D3F9BCE000B5C36 /* main.cpp */; };
+		0AC2CCF21D3F9DEB000B5C36 /* HTTPClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2CCF01D3F9DEB000B5C36 /* HTTPClient.cpp */; };
+		0AF17ADA1D444B2F002CB67F /* FLVDemuxer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF17AD81D444B2F002CB67F /* FLVDemuxer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AC2CCE21D3F9BCE000B5C36 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A04970E1D43B40500D93D19 /* Demultiplexer_select.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Demultiplexer_select.cpp; path = base/Demultiplexer_select.cpp; sourceTree = "<group>"; };
+		0A04970F1D43B40500D93D19 /* Demultiplexer_select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demultiplexer_select.h; path = base/Demultiplexer_select.h; sourceTree = "<group>"; };
+		0A0497101D43B40500D93D19 /* escape_string.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = escape_string.hpp; path = base/escape_string.hpp; sourceTree = "<group>"; };
+		0A0497111D43B40500D93D19 /* OSAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSAL.h; path = base/OSAL.h; sourceTree = "<group>"; };
+		0A0497121D43B40500D93D19 /* Reactor_Impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Reactor_Impl.cpp; path = base/Reactor_Impl.cpp; sourceTree = "<group>"; };
+		0A0497131D43B40500D93D19 /* Reactor_Impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reactor_Impl.h; path = base/Reactor_Impl.h; sourceTree = "<group>"; };
+		0A0497141D43B40500D93D19 /* Reactor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Reactor.cpp; path = base/Reactor.cpp; sourceTree = "<group>"; };
+		0A0497151D43B40500D93D19 /* Reactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reactor.h; path = base/Reactor.h; sourceTree = "<group>"; };
+		0A0497161D43B40500D93D19 /* url.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = url.hpp; path = base/url.hpp; sourceTree = "<group>"; };
+		0A04971B1D43B42900D93D19 /* HTTPProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HTTPProtocol.cpp; path = netstack/HTTPProtocol.cpp; sourceTree = "<group>"; };
+		0A04971C1D43B42900D93D19 /* HTTPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPProtocol.h; path = netstack/HTTPProtocol.h; sourceTree = "<group>"; };
+		0A04971D1D43B42900D93D19 /* IProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IProtocol.h; path = netstack/IProtocol.h; sourceTree = "<group>"; };
+		0A04971E1D43B42900D93D19 /* TCPProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TCPProtocol.cpp; path = netstack/TCPProtocol.cpp; sourceTree = "<group>"; };
+		0A04971F1D43B42900D93D19 /* TCPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCPProtocol.h; path = netstack/TCPProtocol.h; sourceTree = "<group>"; };
+		0AC2CCE41D3F9BCE000B5C36 /* httpclient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = httpclient; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC2CCE71D3F9BCE000B5C36 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AC2CCEE1D3F9C36000B5C36 /* HTTPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		0AC2CCF01D3F9DEB000B5C36 /* HTTPClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HTTPClient.cpp; sourceTree = "<group>"; };
+		0AF17AD51D444906002CB67F /* IDemuxer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDemuxer.h; path = demuxer/IDemuxer.h; sourceTree = "<group>"; };
+		0AF17AD71D444A5A002CB67F /* FLVDemuxer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLVDemuxer.h; path = demuxer/FLVDemuxer.h; sourceTree = "<group>"; };
+		0AF17AD81D444B2F002CB67F /* FLVDemuxer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FLVDemuxer.cpp; path = demuxer/FLVDemuxer.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC2CCE11D3F9BCE000B5C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A04970D1D43B3F300D93D19 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				0A04970E1D43B40500D93D19 /* Demultiplexer_select.cpp */,
+				0A04970F1D43B40500D93D19 /* Demultiplexer_select.h */,
+				0A0497101D43B40500D93D19 /* escape_string.hpp */,
+				0A0497111D43B40500D93D19 /* OSAL.h */,
+				0A0497121D43B40500D93D19 /* Reactor_Impl.cpp */,
+				0A0497131D43B40500D93D19 /* Reactor_Impl.h */,
+				0A0497141D43B40500D93D19 /* Reactor.cpp */,
+				0A0497151D43B40500D93D19 /* Reactor.h */,
+				0A0497161D43B40500D93D19 /* url.hpp */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		0A04971A1D43B41B00D93D19 /* netstack */ = {
+			isa = PBXGroup;
+			children = (
+				0A04971B1D43B42900D93D19 /* HTTPProtocol.cpp */,
+				0A04971C1D43B42900D93D19 /* HTTPProtocol.h */,
+				0A04971D1D43B42900D93D19 /* IProtocol.h */,
+				0A04971E1D43B42900D93D19 /* TCPProtocol.cpp */,
+				0A04971F1D43B42900D93D19 /* TCPProtocol.h */,
+			);
+			name = netstack;
+			sourceTree = "<group>";
+		};
+		0AC2CCDB1D3F9BCE000B5C36 = {
+			isa = PBXGroup;
+			children = (
+				0AC2CCE61D3F9BCE000B5C36 /* httpclient */,
+				0AC2CCE51D3F9BCE000B5C36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AC2CCE51D3F9BCE000B5C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AC2CCE41D3F9BCE000B5C36 /* httpclient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AC2CCE61D3F9BCE000B5C36 /* httpclient */ = {
+			isa = PBXGroup;
+			children = (
+				0AF17AD31D4448C9002CB67F /* demuxer */,
+				0A04970D1D43B3F300D93D19 /* base */,
+				0A04971A1D43B41B00D93D19 /* netstack */,
+				0AC2CCE71D3F9BCE000B5C36 /* main.cpp */,
+				0AC2CCEE1D3F9C36000B5C36 /* HTTPClient.h */,
+				0AC2CCF01D3F9DEB000B5C36 /* HTTPClient.cpp */,
+			);
+			path = httpclient;
+			sourceTree = "<group>";
+		};
+		0AF17AD31D4448C9002CB67F /* demuxer */ = {
+			isa = PBXGroup;
+			children = (
+				0AF17AD71D444A5A002CB67F /* FLVDemuxer.h */,
+				0AF17AD51D444906002CB67F /* IDemuxer.h */,
+				0AF17AD81D444B2F002CB67F /* FLVDemuxer.cpp */,
+			);
+			name = demuxer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AC2CCE31D3F9BCE000B5C36 /* httpclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC2CCEB1D3F9BCE000B5C36 /* Build configuration list for PBXNativeTarget "httpclient" */;
+			buildPhases = (
+				0AC2CCE01D3F9BCE000B5C36 /* Sources */,
+				0AC2CCE11D3F9BCE000B5C36 /* Frameworks */,
+				0AC2CCE21D3F9BCE000B5C36 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = httpclient;
+			productName = httpclient;
+			productReference = 0AC2CCE41D3F9BCE000B5C36 /* httpclient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AC2CCDC1D3F9BCE000B5C36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "wang xiaoming";
+				TargetAttributes = {
+					0AC2CCE31D3F9BCE000B5C36 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0AC2CCDF1D3F9BCE000B5C36 /* Build configuration list for PBXProject "httpclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AC2CCDB1D3F9BCE000B5C36;
+			productRefGroup = 0AC2CCE51D3F9BCE000B5C36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AC2CCE31D3F9BCE000B5C36 /* httpclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AC2CCE01D3F9BCE000B5C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC2CCF21D3F9DEB000B5C36 /* HTTPClient.cpp in Sources */,
+				0AF17ADA1D444B2F002CB67F /* FLVDemuxer.cpp in Sources */,
+				0A0497191D43B40500D93D19 /* Reactor.cpp in Sources */,
+				0AC2CCE81D3F9BCE000B5C36 /* main.cpp in Sources */,
+				0A0497201D43B42900D93D19 /* HTTPProtocol.cpp in Sources */,
+				0A0497181D43B40500D93D19 /* Reactor_Impl.cpp in Sources */,
+				0A0497211D43B42900D93D19 /* TCPProtocol.cpp in Sources */,
+				0A0497171D43B40500D93D19 /* Demultiplexer_select.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AC2CCE91D3F9BCE000B5C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0AC2CCEA1D3F9BCE000B5C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0AC2CCEC1D3F9BCE000B5C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AC2CCED1D3F9BCE000B5C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC2CCDF1D3F9BCE000B5C36 /* Build configuration list for PBXProject "httpclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC2CCE91D3F9BCE000B5C36 /* Debug */,
+				0AC2CCEA1D3F9BCE000B5C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC2CCEB1D3F9BCE000B5C36 /* Build configuration list for PBXNativeTarget "httpclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC2CCEC1D3F9BCE000B5C36 /* Debug */,
+				0AC2CCED1D3F9BCE000B5C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AC2CCDC1D3F9BCE000B5C36 /* Project object */;
+}
